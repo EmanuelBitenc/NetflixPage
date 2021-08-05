@@ -1,0 +1,71 @@
+.titulo {
+  font-size: 3vw;
+  margin-bottom: 5px;
+}
+
+.sinopse {
+  width: 40%;
+}
+
+.sinopse,
+.titulo {
+  color: white;
+  margin-left: 40px;
+}
+
+.filme-principal {
+  border: 1px solid rgb(39, 39, 39);
+  font-size: 1.4vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 100%),
+    url(/img/capa-house.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container-button {
+  display: flex;
+}
+
+.assistir {
+  background-color: rgba(255, 255, 255, 0.938);
+  color: black;
+  margin-left: 40px;
+}
+.mais {
+  background-color: rgba(58, 58, 58, 0.5);
+  color: white;
+  margin-left: 10px;
+}
+.button {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 20px;
+  padding: 12px 30px;
+  border-radius: 0.4rem;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+.assistir:hover {
+  background-color: rgba(221, 221, 221, 0.938);
+}
+.mais:hover {
+  background-color: rgba(44, 44, 44, 0.5);
+}
+
+.fa-play {
+  color: black;
+  margin-right: 10px;
+}
+.fa-info-circle {
+  color: white;
+  margin-right: 10px;
+}
