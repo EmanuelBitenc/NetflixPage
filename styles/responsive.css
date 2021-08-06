@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-button {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 15px;
+  }
+  .button {
+    width: 250px;
+  }
+  .mais {
+    margin: 5px 0px 0px 0px;
+  }
+
+  .sinopse {
+    width: 50%;
+    font-size: 2vw;
+  }
+  .titulo {
+    font-size: 4vw;
+  }
+}
